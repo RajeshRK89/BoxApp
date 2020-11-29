@@ -1,0 +1,2 @@
+django
+boxsdk[jwt]==2.6.1
