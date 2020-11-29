@@ -21,8 +21,9 @@ body {
 	margin-top: 20px;
 }
 .box-info {
-	/* text-decoration: line-through; */
-	background: rgba(149, 165, 166, .3);
+	
+	background: rgba(152, 149, 166, 0.3);
+	text-align: center;
 }
 footer {
 	margin-top: 20px;
