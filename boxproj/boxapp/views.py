@@ -6,10 +6,10 @@ from boxsdk import JWTAuth, Client
 def index(request):
     file_list = {}
     
-    
+    config_folder='/Users/te376346/BoxApp/boxproj/boxapp/config.json'
     
 
-    config = JWTAuth.from_settings_file('/Users/te376346/BoxApp/boxproj/boxapp/771983070_geiglw2s_config.json')
+    config = JWTAuth.from_settings_file(config_folder)
 
     client = Client(config)
 
